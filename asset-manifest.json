@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.d9622898.css",
+    "main.js": "/react-gh-pages/static/js/main.6b2518e3.js",
+    "static/media/Keerthi.jpg": "/react-gh-pages/static/media/Keerthi.1e798c5a15847a38bd22.jpg",
+    "static/media/LinkedIn.png": "/react-gh-pages/static/media/LinkedIn.df9956b6c3d5eb318550.png",
+    "static/media/Github.png": "/react-gh-pages/static/media/Github.c2d234dec6e194409def.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.d9622898.css.map": "/react-gh-pages/static/css/main.d9622898.css.map",
+    "main.6b2518e3.js.map": "/react-gh-pages/static/js/main.6b2518e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9622898.css",
+    "static/js/main.6b2518e3.js"
+  ]
+}
