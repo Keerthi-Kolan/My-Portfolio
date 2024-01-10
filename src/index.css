@@ -9,21 +9,166 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+  top:0;
 }
 .navbar h1{
-  color: #FF671B;
+  color: #f1356d;
+  margin: 0 left;
+  width: 50%;
+  float: left;
 }
 .navbar .links{
-  margin-left: auto;
+  margin-left: 100px;
+  width: 50%;
+  float: right;
 }
 .navbar a{
-  margin-left: 16px;
+  margin-left: 10px;
   text-decoration: none;
   padding: 6px;
 }
 .navbar a:hover{
-  color: #FF671B;
+  background:#f1356d;
+  color:#ffffff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.aboutBody p{
+  text-align: justify;
+  margin-left: 100px;
+  width: 80%;
+  float: right;
+  max-width: 600px;
+  margin: 40px auto;
+  padding-top: 40px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+.aboutBody img{
+  margin-left: 100px;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 110px;
+  width: 20%;
+  float: left;
+  margin: 40px auto;
+  max-width: 20%;
+  border-radius: 40%;
+}
+.Masters {
+  text-align: center;
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.Masters:hover{
+  background:#f9fbfc;
+  color:#ddd;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  top: -4px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.Bachelors {
+  text-align: center;
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.Bachelors:hover{
+  background:#f9fbfc;
+  color:#ddd;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  position:relative;
+  top: -4px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+ h3{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.project3 {
+  padding-left: 50px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.project3:hover{
+  background:#f9fbfc;
+  color:#ddd;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  position:relative;
+  top: -4px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.project2 {
+  padding-left: 50px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.project2:hover{
+  background:#f9fbfc;
+  color:#ddd;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  position:relative;
+  top: -4px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.project1 {
+  padding-left: 50px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.project1:hover{
+  background:#f9fbfc;
+  color:#ddd;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  position:relative;
+  top: -4px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.info{
+  text-align: center; 
+  padding-top: 30px;
+}
+.info .LinkedIn img{
+  display: inline;
+  max-width: 5%;
+  float: left;
+  padding: 50px;
+  padding-left: 500px;
+}
+.info .LinkedIn img:hover{
+  position: relative;
+  top: -8px;
+}
+.info .Github img{
+  display: inline;
+  max-width: 6%;
+  top: -4px;
+  position: relative;
+  float: right;
+  padding: 50px;
+  padding-right:500px;
+}
+.info .Github img:hover{
+  position: relative;
+  top: -10px;
 }
