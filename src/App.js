@@ -10,6 +10,7 @@ function App() {
     <Router>
     <div className="App">
       <Navbar/>
+      <p>Unable to display the content</p>
       <div className='content'>
       <Switch>
         <Route path="/">
