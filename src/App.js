@@ -1,6 +1,6 @@
 import About from './About';
 import Navbar from './Navbar';
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import {HashRouter as Router,Route,Switch} from 'react-router-dom';
 import Education from './Education';
 import Projects from './Projects';
 import Contact from './Contact';
