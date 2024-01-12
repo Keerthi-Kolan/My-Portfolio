@@ -1,29 +1,31 @@
-import './App.css';
 import About from './About';
 import Navbar from './Navbar';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
-import Education from './Education';
-import Projects from './Projects';
-import Contact from './Contact';
+import Education from './Education.js';
+import Projects from './Projects.js';
+import Contact from './Contact.js';
+import NotFound from './NotFound.js';
 function App() {
   return (
     <Router>
     <div className="App">
       <Navbar/>
-      <p>Unable to display the content</p>
       <div className='content'>
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
             <About/>
         </Route>
-        <Route path="/Education.js">
+        <Route path="/Education">
           <Education/>
         </Route>
-        <Route path="/Projects.js">
+        <Route path="/Projects">
           <Projects/>
         </Route>
-        <Route path="/Contact.js">
+        <Route path="/info">
           <Contact/>
+        </Route>
+        <Route path="*">
+          <NotFound/>
         </Route>
       </Switch>
       </div>
