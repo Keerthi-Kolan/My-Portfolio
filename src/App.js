@@ -1,9 +1,9 @@
 import About from './About';
 import Navbar from './Navbar';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
-import Education from './Education.js';
-import Projects from './Projects.js';
-import Contact from './Contact.js';
+import Education from './Education';
+import Projects from './Projects';
+import Contact from './Contact';
 import NotFound from './NotFound.js';
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path="/Projects">
           <Projects/>
         </Route>
-        <Route path="/info">
+        <Route path="/Contact">
           <Contact/>
         </Route>
         <Route path="*">

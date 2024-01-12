@@ -12,23 +12,26 @@
   border-bottom: 1px solid #f2f2f2;
   top:0;
 }
-.navbar h1{
-  color: #f1356d;
-  margin: 0 left;
-  width: 50%;
-  float: left;
-}
 .navbar .links{
   margin-left: 100px;
   width: 50%;
   float: right;
 }
-.navbar a{
+.navbar h1 a{
+  text-decoration: none;
+  color: #f1356d;
+}
+.navbar h1 {
+  margin: 0 left;
+  width: 50%;
+  float: left;
+}
+.navbar .links a{
   margin-left: 10px;
   text-decoration: none;
   padding: 6px;
 }
-.navbar a:hover{
+.navbar .links a:hover{
   background:#f1356d;
   color:#ffffff;
   border: 0;
